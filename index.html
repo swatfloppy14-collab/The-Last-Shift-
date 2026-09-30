@@ -1,86 +1,467 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>THE LAST SHIFT — Official</title>
-<meta name="description" content="THE LAST SHIFT — a psychological horror game set inside an abandoned factory.">
-<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>THE LAST SHIFT — Official Game</title>
+
+    <meta name="description"
+          content="THE LAST SHIFT — atmospheric industrial horror game.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Oswald:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <div class="noise"></div>
+<div class="rain"></div>
 
 <header class="topbar">
-  <div class="brand">THE LAST SHIFT</div>
-  <nav>
-    <a href="#game">GAME</a>
-    <a href="#media">MEDIA</a>
-    <a href="#updates">UPDATES</a>
-  </nav>
+
+    <div class="brand">
+        TLS<span>//</span>FACTORY
+    </div>
+
+    <nav>
+        <a href="#game">GAME</a>
+        <a href="#trailer">TRAILER</a>
+        <a href="#screens">SCREENSHOTS</a>
+        <a href="#about">ABOUT</a>
+        <a href="#demo">DEMO</a>
+    </nav>
+
 </header>
 
+
 <main>
-  <section class="hero">
-    <div class="hero-overlay"></div>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="sky"></div>
+
+    <div class="factory">
+
+        <div class="tower t1"></div>
+        <div class="tower t2"></div>
+        <div class="tower t3"></div>
+
+        <div class="roof"></div>
+        <div class="hall"></div>
+        <div class="windows"></div>
+
+        <div class="smoke s1"></div>
+        <div class="smoke s2"></div>
+
+    </div>
+
+    <div class="ground"></div>
+
+
     <div class="hero-content">
-      <p class="eyebrow">THE FACTORY NEVER SLEEPS</p>
-      <h1>THE LAST<br><span>SHIFT</span></h1>
-      <p class="subtitle">A horror experience inside an abandoned factory.</p>
-      <a class="download" href="#download">DOWNLOAD GAME <span>↓</span></a>
-      <p class="version">CURRENT BUILD · 0.1.0 · WINDOWS</p>
-    </div>
-    <div class="scroll">SCROLL TO ENTER <span>↓</span></div>
-  </section>
 
-  <section id="game" class="section">
-    <div class="section-tag">01 / THE GAME</div>
-    <div class="grid">
-      <div>
-        <h2>THE FINAL<br><em>SHIFT</em></h2>
-      </div>
-      <div class="copy">
-        <p>You arrive for what should be the final night shift before the factory is demolished.</p>
-        <p>The power is failing. Rooms don't always stay the same. Something is moving through the building.</p>
-        <p>Explore. Repair. Listen carefully. And don't assume that what you saw a minute ago is still there.</p>
-      </div>
-    </div>
-  </section>
+        <div class="eyebrow">
+            UNREAL ENGINE 5.8.2 • WINDOWS • HORROR
+        </div>
 
-  <section id="media" class="media">
-    <div class="section-tag">02 / MEDIA</div>
-    <div class="cards">
-      <div class="card card-one"><span>FACTORY</span></div>
-      <div class="card card-two"><span>THE BASEMENT</span></div>
-      <div class="card card-three"><span>THE ENTITY</span></div>
-    </div>
-  </section>
+        <h1>
+            THE LAST<br>
+            <span>SHIFT</span>
+        </h1>
 
-  <section id="download" class="download-section">
-    <div class="section-tag">03 / DOWNLOAD</div>
-    <h2>READY FOR<br><em>YOUR SHIFT?</em></h2>
-    <p class="download-note">The download button is prepared for your game build. Replace the placeholder link when your first packaged Windows build is ready.</p>
-    <a class="download big" href="#" onclick="downloadPlaceholder(event)">DOWNLOAD FOR WINDOWS</a>
-    <div class="meta">
-      <span>VERSION 0.1.0</span>
-      <span>WINDOWS PC</span>
-      <span>FREE DEVELOPMENT BUILD</span>
-    </div>
-  </section>
+        <p class="tagline">
+            THE FACTORY NEVER SLEEPS.
+        </p>
 
-  <section id="updates" class="section updates">
-    <div class="section-tag">04 / UPDATES</div>
-    <div class="update">
-      <div><strong>0.1.0</strong><span>FIRST PLAYABLE BUILD</span></div>
-      <p>Factory exploration, inventory, flashlight, generator system, fuses, key interaction and early horror gameplay.</p>
+        <p class="intro">
+            One final night.
+            One abandoned factory.
+            Something is still inside.
+        </p>
+
+        <a class="btn primary" href="#demo">
+            PLAY THE DEMO
+            <b>→</b>
+        </a>
+
+        <div class="version">
+            FREE DEMO / v0.1.0
+        </div>
+
     </div>
-  </section>
+
+
+    <div class="scroll">
+        SCROLL TO ENTER
+        <span>↓</span>
+    </div>
+
+</section>
+
+
+<!-- GAME -->
+
+<section id="game" class="section">
+
+    <div class="section-head">
+        <span>01</span>
+        <h2>ENTER THE FACTORY</h2>
+    </div>
+
+
+    <div class="game-grid">
+
+        <div class="poster">
+
+            <span>
+                PRODUCTION HALL
+            </span>
+
+        </div>
+
+
+        <div class="copy">
+
+            <p class="kicker">
+                FINAL NIGHT SHIFT
+            </p>
+
+            <h3>
+                THE LIGHTS<br>
+                ARE FAILING.
+            </h3>
+
+            <p>
+                Explore a deserted industrial complex during
+                its final night before demolition.
+
+                Restore power, search forgotten rooms and
+                follow clues while the factory slowly becomes
+                something else.
+            </p>
+
+
+            <div class="stats">
+
+                <div>
+                    <strong>01</strong>
+                    <span>PLAYER</span>
+                </div>
+
+                <div>
+                    <strong>10</strong>
+                    <span>ROUNDS</span>
+                </div>
+
+                <div>
+                    <strong>?</strong>
+                    <span>THREATS</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- TRAILER -->
+
+<section id="trailer" class="section dark">
+
+    <div class="section-head">
+        <span>02</span>
+        <h2>TRAILER</h2>
+    </div>
+
+
+    <div class="video-card">
+
+        <div class="play">
+            ▶
+        </div>
+
+        <div class="video-caption">
+            TRAILER — COMING SOON
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SCREENSHOTS -->
+
+<section id="screens" class="section">
+
+    <div class="section-head">
+        <span>03</span>
+        <h2>SCREENSHOTS</h2>
+    </div>
+
+
+    <div class="screens">
+
+        <div class="shot shot1">
+            <span>LOCKER ROOM</span>
+        </div>
+
+        <div class="shot shot2">
+            <span>BASEMENT</span>
+        </div>
+
+        <div class="shot shot3">
+            <span>GENERATOR ROOM</span>
+        </div>
+
+        <div class="shot shot4">
+            <span>NIGHT SHIFT</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="section dark">
+
+    <div class="section-head">
+        <span>04</span>
+        <h2>ABOUT THE GAME</h2>
+    </div>
+
+
+    <div class="about">
+
+        <p class="big">
+            THE LAST SHIFT is an atmospheric industrial
+            horror experience built around exploration,
+            tension and the feeling that the place is
+            watching you.
+        </p>
+
+
+        <div class="features">
+
+            <article>
+
+                <i>01</i>
+
+                <h3>
+                    EXPLORE
+                </h3>
+
+                <p>
+                    Search offices, locker rooms,
+                    production areas and hidden
+                    maintenance spaces.
+                </p>
+
+            </article>
+
+
+            <article>
+
+                <i>02</i>
+
+                <h3>
+                    SURVIVE
+                </h3>
+
+                <p>
+                    Power failures and an unseen
+                    presence turn familiar corridors
+                    into threats.
+                </p>
+
+            </article>
+
+
+            <article>
+
+                <i>03</i>
+
+                <h3>
+                    SOLVE
+                </h3>
+
+                <p>
+                    Find fuses, keys and tools.
+                    Restore systems and unlock
+                    the route forward.
+                </p>
+
+            </article>
+
+
+            <article>
+
+                <i>04</i>
+
+                <h3>
+                    LISTEN
+                </h3>
+
+                <p>
+                    Footsteps, machinery and distant
+                    noises may tell you what the
+                    darkness hides.
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- DEVELOPMENT -->
+
+<section class="section updates">
+
+    <div class="section-head">
+        <span>05</span>
+        <h2>DEVELOPMENT</h2>
+    </div>
+
+
+    <div class="terminal">
+
+        <div class="term-top">
+
+            <span>
+                THE_LAST_SHIFT_BUILD_LOG
+            </span>
+
+            <span>
+                ● ONLINE
+            </span>
+
+        </div>
+
+
+        <div>
+            <b>[CURRENT]</b>
+
+            Factory environment /
+            generator /
+            inventory /
+            flashlight /
+            doors /
+            entity /
+            lighting
+
+        </div>
+
+
+        <div>
+            <b>[NEXT]</b>
+
+            More missions /
+            character select /
+            multiplayer systems /
+            polish
+
+        </div>
+
+
+        <div>
+            <b>[STATUS]</b>
+
+            PLAYABLE DEVELOPMENT BUILD
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- DOWNLOAD -->
+
+<section id="demo" class="download">
+
+    <div class="download-bg"></div>
+
+
+    <div class="download-content">
+
+        <div class="eyebrow">
+            THE LAST SHIFT — FREE DEMO
+        </div>
+
+
+        <h2>
+            YOUR SHIFT<br>
+            STARTS HERE.
+        </h2>
+
+
+        <p>
+            The demo download link will be connected
+            here when the public build is ready.
+        </p>
+
+
+        <!--
+        IMPORTANT:
+        Replace "#" with the real download link.
+        -->
+
+        <a class="btn primary large" href="#">
+            DOWNLOAD DEMO
+            <b>↓</b>
+        </a>
+
+
+        <small>
+            WINDOWS • FREE • v0.1.0
+        </small>
+
+    </div>
+
+</section>
+
 </main>
 
+
 <footer>
-  <div class="brand">THE LAST SHIFT</div>
-  <div>© 2026 · IN DEVELOPMENT</div>
+
+    <div>
+
+        <strong>
+            THE LAST SHIFT
+        </strong>
+
+        <span>
+            © 2026 — INDEPENDENT GAME PROJECT
+        </span>
+
+    </div>
+
+
+    <div>
+        BUILT WITH UNREAL ENGINE
+    </div>
+
 </footer>
 
+
 <script src="script.js"></script>
+
 </body>
 </html>
